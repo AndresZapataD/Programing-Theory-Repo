@@ -1,0 +1,68 @@
+# === Unity general ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# === IDEs and editors ===
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+ExportedObj/
+.consulo/
+
+# === Unity Crash, System or Debug Files ===
+*.log
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# === Unity packages and binary builds ===
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# === Addressables data ===
+Assets/AddressableAssetsData/*/*.bin*
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*
+
+# === JetBrains Rider ===
+Assets/Plugins/Editor/JetBrains*
+
+# === Gradle ===
+.gradle/
+
+# === Ignore Git LFS large file types (opcional si no usas Git LFS) ===
+*.dylib
+*.dll
+*.exe
+*.iso
+*.zip
+*.rar
+
+# === Opcional: ignora Asset Store Tools si lo usas ===
+# Assets/AssetStoreTools*
